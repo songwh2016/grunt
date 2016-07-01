@@ -1,13 +1,13 @@
 
-  ####grunt是一套前端自动化工具，一个基于nodeJs的命令行工具，一般用于：
+  grunt是一套前端自动化工具，一个基于nodeJs的命令行工具，一般用于：<br />
     * 压缩文件 
     * 合并文件 
     * 简单语法检查 
   因为grunt是基于nodeJs的，所以首先各位需要安装nodeJS环境。<br />
   npm install -g grunt-cli <br />
   这条命令将会把grunt命令植入系统路径，这样就能在任意目录运行他。<br />
-  ####认识Gruntdile与package.json <br />
-  ####package.json
+  认识Gruntdile与package.json <br />
+  package.json <br />
   这个文件用来存储npm模块的依赖项（比如我们的打包若是依赖requireJS的插件，这里就需要配置）
   然后，我们会在里面配置一些不一样的信息，比如我们上面的file，这些数据都会放到package中<br />
   { <br />
@@ -29,7 +29,7 @@
       "express": "3.x"<br />
     }<br />
   }<br />
-  #####pGruntfile.js
+  pGruntfile.js<br />
   我们需要在grunt目录下执行 npm install将相关的文件下载下来：<br />
   module.exports = function (grunt) { <br />
     // 项目配置 <br />

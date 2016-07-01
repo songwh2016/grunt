@@ -2,7 +2,7 @@
   grunt是一套前端自动化工具，一个基于nodeJs的命令行工具，一般用于：<br />
     * 压缩文件 
     * 合并文件 
-    * 简单语法检查 
+    * 简单语法检查 <br />
   因为grunt是基于nodeJs的，所以首先各位需要安装nodeJS环境。<br />
   npm install -g grunt-cli <br />
   这条命令将会把grunt命令植入系统路径，这样就能在任意目录运行他。<br />
